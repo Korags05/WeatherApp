@@ -163,7 +163,7 @@ fun WeatherDetails(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceAround
                 ) {
-                    WeatherKeyValue("Feels Like", "${data.current.feelslike_c}°C")
+                    WeatherKeyValue("Feels like", "${data.current.feelslike_c}°C")
                     WeatherKeyValue("Precipitation", "${data.current.precip_mm} mm")
                 }
             }
